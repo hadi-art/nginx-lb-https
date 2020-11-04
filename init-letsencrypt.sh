@@ -5,7 +5,7 @@ if ! [ -x "$(command -v docker-compose)" ]; then
   exit 1
 fi
 
-domains=(sss.rpi-iot.tk)
+domains=(rpi-iot.duckdns.org)
 rsa_key_size=4096
 data_path="./data/certbot"
 email="rpi.iot.2020@gmail.com" # Adding a valid address is strongly recommended
